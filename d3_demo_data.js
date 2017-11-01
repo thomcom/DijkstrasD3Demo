@@ -14,7 +14,7 @@ var demo_nodes = {
   "SUCCESS": {
     "group": 14
   },
-  "CALL_PTS": {
+  "CALL_INTERNET": {
     "group": 14
   },
   "SUBSTATE_INSTALL": {
@@ -96,7 +96,7 @@ var links = [
     "label": "fail"
   },
   {
-    "source": "CALL_PTS",
+    "source": "CALL_INTERNET",
     "target": "SUBSTATE_INSTALL",
     "label": "USB UPDATE"
   },
@@ -142,7 +142,7 @@ var links = [
   },
   {
     "source": "ERROR",
-    "target": "CALL_PTS",
+    "target": "CALL_INTERNET",
     "label": "Call PTS"
   },
   {
